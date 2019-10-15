@@ -15,3 +15,7 @@ Click the links at the top right of the page to navigate between the three pages
 <img src="assets/images/index.png">
 <img src="assets/images/contact.png">
 <img src="assets/images/portfolio.png">
+
+## Link
+file:///C:/Users/djshe/BootCamp/DanShelly.github.io/index.html
+
