@@ -1,52 +1,76 @@
-header {
-    
+/* ======================== All Pages ========================= */
+*{
+    box-sizing: border-box;
 }
 
-body {
-   
+.clearfix {
+    clear: both;
 }
 
-.heading1 {
+.heading {
+    background-color: #ffffff;
+    border-color: #cccccc;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #eeeeee;
-    background-color: #4aaaa5;
+    width: 50%;
+    float: left;
+
 }
 
-.heading2 {
+.name {
+    padding: 20px;
+    color: white;
+    background-color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 40%;
+
+}
+
+.links {
+    padding: 20px;
     float: right;
+    width: 200px;
 }
 
 .middle {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #ffffff;
-    color: #777777;
-    border-color: #dddddd;
-    padding: 30px;
-    margin-top: 50px;
-    margin-bottom: 100px;
+    padding: 20px 15%;
+    background-color: #dddddd;
 }
 
-.aboutme {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+.middletitle {
     color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+footer {
+    color: white;
+    background-color: #666666;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:30px;
+    width:100%;
 }
 
-.bio {
-    line-height: 2;
-}
-
+/*=============== Index Page ================ */
 .profilepic {
     float: left;
+    margin-right: 15px;
 }
 
-footer {
-    color: #eeeeee;
-    background-color: #666666;
-    width: 100%;
-    height: 30px;  
-    position: fixed; 
-    bottom: 0px; 
-    left: 0px;
-    text-align: center;
+
+
+/* ============== Contact Page ============== */
+.middletext {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 35px;
+    background-color: #ffffff;
+}
+
+
+/* ============= Portfolio Page =============== */
+.pictures {
+
 }
 
