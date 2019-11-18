@@ -1,9 +1,0 @@
-.profilepic {
-    width: 30%;
-}
-
-@media(max-width:768px) {
-    .profilepic {
-        width: 100%;
-    }
-}
